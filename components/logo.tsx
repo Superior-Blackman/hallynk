@@ -4,9 +4,8 @@ import Image from 'next/image'
 const Logo = () => {
     return (
         <>
-            <div className='h-6 w-6'>
-                <Image src='/hallynk-logo.svg' alt='' className='w-6 h-6' fill />
-            </div>
+           
+                <Image src='/hallynk-logo.svg' alt='logo' className='w-14 h-14' width={20} height={20} />
         </>
     );
 
